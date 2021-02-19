@@ -17,7 +17,7 @@
 }
       .left-bg{
         background-image: url(img/wave1.png);
-        height: 100vh;
+        height: 110vh;
         background-repeat: no-repeat;
         background-position: right;
       }
@@ -86,6 +86,7 @@
   background: #003049;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 5px;
+margin-bottom: 15px;
 }
 
 
@@ -104,6 +105,10 @@ border-radius: 5px;
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 690px) {
+
+  .action-btn {
+    width: 320px;
+  }
      body{
       background-color: #EEEEEE !important;
      }
@@ -140,10 +145,18 @@ border-radius: 5px;
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {...} */
   </style>
+
+  <link rel="stylesheet" href="css/hover.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
 </head>
 <body>
 
@@ -186,10 +199,10 @@ border-radius: 5px;
       
     </div>
 
-
+ 
     
     <div class="col-sm-9 col-md-6 col-lg-8 " >
-          <img src='img/ibs-phone.png' class="pull-right">
+          <img src='img/ibs-phone.png' class="pull-right animate__animated animate__pulse animate__repeat-3">
 
           <!-- <img src='img/ibs-phone.png'> -->
     </div>
@@ -221,7 +234,7 @@ border-radius: 5px;
           <div class="row">
 
           <div class="col-sm-4" >
-              <div class="card">
+              <div class="card hvr-grow">
                   <div class="card-body">
                     <p>
                       Tailored content strategy.
@@ -247,7 +260,7 @@ border-radius: 5px;
              </div>
 
              <div class="col-sm-4" >
-              <div class="card">
+              <div class="card hvr-grow">
                   <div class="card-body">
                     <p>
                       Tailored content strategy.
@@ -276,7 +289,7 @@ border-radius: 5px;
 
 
              <div class="col-sm-4" >
-              <div class="card">
+              <div class="card hvr-grow">
                   <div class="card-body">
                     <p>
                       Tailored content strategy.
