@@ -1,0 +1,147 @@
+
+:root {
+    --prim-blue: #00296B;
+    --prim-orange:  #FA6000;
+    --head-size:46px;
+  }
+  
+  .pblue {
+    color: var(--prim-blue);
+  }
+        .left-bg{
+          background-image: url(../img/wave1.png);
+          height: 110vh;
+          background-repeat: no-repeat;
+          background-position: right;
+        }
+  
+        .title-h1{
+            color: var(--prim-blue);
+            font-size: var(--head-size);
+            text-transform: capitalize;
+  
+        }
+      .pitch{
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 32px;
+          line-height: 37px;
+          color: #00296B;
+  
+      }
+      .right-what{
+        background: var( --prim-orange);
+        height: 100vh;
+      }
+      .right-what > h2 {
+          text-indent: 50px;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 54px;
+          line-height: 63px;
+          color: #FFFFFF;
+  
+      }
+      .action-btn{
+          width: 456px;
+          /* height: 73px; */
+          top: 554px;
+          background: #FA6000;
+          border-radius: 5px;
+          text-transform: capitalize;
+  
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 30px;
+  
+      }
+     .whatwedo {
+      padding: 50px;
+      font-size: 32px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 32px;
+      line-height: 37px;
+      color: #FFFFFF;
+      line-height: 1.6;
+     }
+  
+  
+  .card{
+    /* width: 299px; */
+    background: #003049;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  }
+  
+  
+  .price {
+    font-size: 25px;
+      font-weight: 500;
+  }
+  .card-body {
+    font-family: Roboto;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 18px;
+      line-height: 18px;
+      color: #FFFFFF;
+      padding: 21px;
+  }
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 690px) {
+  
+    .action-btn {
+      width: 320px;
+    }
+       body{
+        background-color: #EEEEEE !important;
+       }
+    .left-bg {
+          background-color: #EEEEEE;
+          background-image: url();
+          height: 100vh;
+      
+        }
+  
+    .action-btn{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  
+  }
+  .navbar-nav  a {
+    color: #ffffff;
+  
+  }
+  .navbar-header a {
+    color: #ffffff;
+    font-weight: 600;
+    font-size:30px;
+  
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+  
+  
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+  
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  /* @media only screen and (min-width: 992px) {...} */
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  /* @media only screen and (min-width: 1200px) {...} */
